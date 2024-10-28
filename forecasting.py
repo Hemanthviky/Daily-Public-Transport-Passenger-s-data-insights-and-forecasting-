@@ -1,14 +1,9 @@
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
-from statsmodels.tsa.arima.model import ARIMA
-from matplotlib.gridspec import GridSpec
 from statsmodels.tsa.statespace.sarimax import SARIMAX
 from sklearn.metrics import mean_squared_error
-import warnings
-import io
-import os
+
 
 from google.colab import files
 uploaded = files.upload()
