@@ -61,7 +61,7 @@ def display_insights(data):
           "patterns and outliers in daily passenger counts across different services.")
     print(summary_stats[['mean', 'min', 'max']])
     
-    # 3. Trend Analysis - Passengers over time for each service
+
     plt.figure(figsize=(12, 8))
     for col in service_columns:
         sns.lineplot(x=data.index, y=data[col], label=col)
